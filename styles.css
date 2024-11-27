@@ -151,3 +151,11 @@ a {
 .orange-text {
   color: var(--Orange);
 }
+
+.b-g-text {
+  color: var(--Dark-blue-green);
+}
+
+.green-text {
+  color: var(--Dark-green);
+}
