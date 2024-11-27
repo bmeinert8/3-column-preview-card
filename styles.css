@@ -118,3 +118,9 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom-right-radius: 0.5rem;
   background-color: var(--Dark-green);
 }
+
+.icon-section {
+  height:2.5rem;
+  width: 100%;
+  padding: 3rem 3rem 2rem 3rem;
+}
