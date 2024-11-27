@@ -1,0 +1,45 @@
+@media (min-width: 60rem) {
+  .container {
+    width: 57.5rem;
+    height: 31.25rem;
+    display: flex;
+  }
+
+  .sedans, .suv, .luxury {
+    height: 100%;
+  }
+
+  .sedans {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .luxury {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .text-section {
+    height: 23.56rem;
+    padding-bottom: 0;
+    gap: 0rem;
+  }
+
+  article {
+    padding-top: 1.56rem;
+    padding-bottom: 5.19rem;
+  }
+
+  .btn:hover {
+    border: 1px solid var(--White);
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: var(--White);
+  }
+
+}
