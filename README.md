@@ -1,6 +1,6 @@
 # 3-Column Preview Card Component
 
-This project is a solution to the [3-column preview card component]https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub.
+This project is a solution to the [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub).
 
 ## Table of Contents
 
@@ -21,8 +21,8 @@ This project is a solution to the [3-column preview card component]https://www.f
 
 ### Links
 
-- Solution URL: [Stats Preview Card Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-levAqdnSlX)
-- Live Site URL: [Stats Preview Card](https://bmeinert8.github.io/stats-preview-card/)
+- Solution URL: [3-Column Preview Card Solution](https://www.frontendmentor.io/solutions/responsive-3-column-solution-uVvdpGXz9L)
+- Live Site URL: [3-Column Preview Card](https://bmeinert8.github.io/3-column-preview-card/)
 
 ## My Process
 
