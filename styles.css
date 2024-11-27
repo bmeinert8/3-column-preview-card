@@ -1,0 +1,88 @@
+/* CSS Variables*/
+
+:root {
+  --Off-white: #F2F2F2;
+  --White: #FFFFFF;
+  --Orange: #E28625;
+  --Dark-blue-green: #006971;
+  --Dark-green: #004140;
+
+  --Title-font: "Big Shoulders Display", sans-serif;
+  --Text-font: "Lexend Deca", serif;
+}
+
+/* CSS Modern Reset */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  /* centering component*/
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* Typography */
+
+.text-preset-1 {
+  color: var(--Off-white);
+  font-family: var(--Title-font);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text-preset-2 {
+  color: var(--White);
+  font-family: var(--Text-font);
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  opacity: 0.75;
+}
