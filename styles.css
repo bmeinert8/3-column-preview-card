@@ -23,6 +23,7 @@
 }
 
 body {
+  background-color: var(--Off-white);
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
@@ -85,4 +86,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.5625rem;
   opacity: 0.75;
+}
+
+/* Layout */
+.container {
+  width: 20.4375rem;
+  height: 82.875rem;
+  border-radius: 0.5rem;
 }
