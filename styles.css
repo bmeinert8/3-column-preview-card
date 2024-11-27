@@ -120,7 +120,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon-section {
-  height:2.5rem;
+  height:7.69rem;
   width: 100%;
   padding: 3rem 3rem 2rem 3rem;
+}
+
+.text-section {
+  height: 19.94rem;
+  width: 100%;
+  padding: 0rem 3rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.56rem;
+}
+
+.btn {
+  width: 9.125rem;
+  height: 3rem;
+  border-radius: 1.5625rem;
+  background-color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.orange-text {
+  color: var(--Orange);
 }
