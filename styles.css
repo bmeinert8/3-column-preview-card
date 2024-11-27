@@ -94,3 +94,27 @@ h1, h2, h3, h4, h5, h6 {
   height: 82.875rem;
   border-radius: 0.5rem;
 }
+
+.sedans, .suv, .luxury {
+
+  height:27.62rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sedans {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: var(--Orange);
+}
+
+.suv {
+  background-color: var(--Dark-blue-green);
+}
+
+.luxury {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: var(--Dark-green);
+}
